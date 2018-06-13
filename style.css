@@ -1,8 +1,8 @@
-canvas {
+/* canvas {
   border: 1px solid black;
   
-}
+} */
 
-body {
+body, html {
   margin: 0;
 }
