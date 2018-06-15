@@ -34,6 +34,7 @@ window.onload = () => {
       cntxt.arc(x, y, radius, 0, Math.PI * 2, false);
       cntxt.strokeStyle = 'blue';
       cntxt.stroke();
+      cntxt.fill();
     }
 
     update(innerWidth, innerHeight) {
@@ -55,8 +56,8 @@ window.onload = () => {
 
 
   const canvas = document.querySelector('canvas');
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
+  canvas.width = window.innerWidth - 4;
+  canvas.height = window.innerHeight - 4;
 
   const cntxt = canvas.getContext('2d');
 
