@@ -1,0 +1,22 @@
+{
+  "name": "canvas-resizing",
+  "version": "1.0.0",
+  "description": "Canvas tutorial",
+  "main": "circle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firearthur/canvas-resizing.git"
+  },
+  "author": "FireArthur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/firearthur/canvas-resizing/issues"
+  },
+  "homepage": "https://github.com/firearthur/canvas-resizing#readme",
+  "dependencies": {
+    "require": "^2.4.20"
+  }
+}
